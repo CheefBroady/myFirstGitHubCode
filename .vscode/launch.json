@@ -5,6 +5,22 @@
     "version": "0.2.0",
     "configurations": [      
         {
+            "name": "Launch currently open script",
+            "type": "php",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${fileDirname}"
+        },
+
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000
+        },
+               
+    
+        {
             "type": "firefox",
             "request": "launch",
             "reAttach": true,
@@ -12,7 +28,7 @@
             "file": "${workspaceFolder}/index.html"
         },
 
-                {
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome",
