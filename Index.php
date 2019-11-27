@@ -7,6 +7,10 @@
   </head>
   <body>
     <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <?php
+      echo "kein schöner Tag, heute";
+      // include ("homeTestFile.php") 
+    ?>
     <div>my ext</div>
     
     <div style="margin: 555px;">
@@ -17,9 +21,6 @@
           drittes DIV
       </div>
     </div>
-    <?php
-      echo $today;
-      include ("homeTestFile.php") 
-    ?>
+
   </body>
 </html>
