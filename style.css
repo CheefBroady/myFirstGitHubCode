@@ -1,5 +1,12 @@
 div {
-    color: chartreuse;
-    width: 125px;
+    color: red;
+    width: 525px;
+    background-color: wheat;
+    font-size: 25px;
 
+}
+
+p {
+    color: yellowgreen;
+    block-size: 30px;
 }
