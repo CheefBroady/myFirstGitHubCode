@@ -1,5 +1,4 @@
 
-
-
-echo "was geht ab?"
-
+<?php
+echo "was geht ab?";
+?>
