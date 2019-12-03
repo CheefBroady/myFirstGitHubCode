@@ -1,15 +1,19 @@
-<!doctype html>
-<html lang="de">
-  <head>
-    <meta charset="utf-8"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
     <title>Omas Kochbuch</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
+    <p>This is an example paragraph. Anything in the
+      <strong>body</strong>
+      tag will appear on the page, just like this
+      <strong>p</strong>
+      tag and its contents.
+    </p>
     <?php
-      echo "kein schöner Tag, heute im PHP Tag.....bla, bla, bla.....";
-      // include ("homeTestFile.php") 
+    echo "<h3>...kein schöner Tag, um länger wach zu bleiben.....</h3>"
     ?>
     <div>my ext</div>
     
